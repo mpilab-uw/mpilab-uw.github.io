@@ -10,3 +10,6 @@ github_username:
 
 # Build settings
 markdown: kramdown
+
+run gem install jekyll-scholar 
+gems: ['jekyll/scholar'] 
