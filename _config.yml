@@ -1,40 +1,12 @@
 # Site settings
 title: MPILAB
-email:
+email: j6hickey@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "www.mpilab.ca" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
 
 # Build settings
 markdown: kramdown
-
-run gem install jekyll-scholar 
-gems: ['jekyll/scholar'] 
-
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  group_by: none
-  group_order: ascending
-
-  source: ./_bibliography
-  bibliography: reference.bib
-  bibliography_template: ""
-
-  replace_strings: true
-  join_strings:    true
-
-  use_raw_bibtex_entry: false
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
